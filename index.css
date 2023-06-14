@@ -1,0 +1,66 @@
+/* CSS pour la page d'accueil */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Ajout de cette règle */
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+p {
+  text-align: center;
+  color: #ffe100;
+  font-size: 18px;
+}
+
+.button-container { /* Ajout de cette classe */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Ajout de cette règle */
+}
+
+.button:last-child {
+  margin-right: 0; /* Ajout de cette règle */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+header img {
+  width: 250px;
+  height: 250px;
+}
+body {
+  background-image: url('fond.jpg');
+}
+
+a {color: white;}
+
+header nav {
+  margin-left: auto !important;
+}
+header nav ul {
+  margin: 0 !important;
+}
